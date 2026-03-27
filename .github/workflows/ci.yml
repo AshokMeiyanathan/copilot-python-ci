@@ -1,4 +1,4 @@
-#run python test on pull request using github actions
+#run python test on pull request and push using github actions
 name: Python CI
 
 #trigger based on push on main branch and pull request
