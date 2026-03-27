@@ -2,7 +2,11 @@
 name: Python CI
 
 #trigger based on push on main branch and pull request
-on: [pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+
 jobs:
   build:
     runs-on: ubuntu-latest
